@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(214, 225, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header img {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  /* margin: 300px; */
+  align-items: center;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-box-shadow: 13px 11px 27px 14px rgba(198, 194, 255, 0.5);
+  box-shadow: 13px 11px 27px 14px rgba(198, 194, 255, 0.5);
+}
+
+.card-body {
+  padding: 0px 20px 30px 20px;
+}
+
+.light-text {
+  color: #9699a8;
+  font-size: smaller;
+  font-weight: 600;
+}
+
+.prize {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f8f9fe;
+  width: 100%;
+  padding: 10px 0px;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+.annual-plan {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  align-items: baseline;
+}
+
+.link {
+  font-weight: 500;
+  font-size: small;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #382ae1;
+  color: white;
+  font-family: monospace;
+  font-weight: 900;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px 0px;
+  border: none;
+  -webkit-box-shadow: 13px 11px 27px 14px rgba(198, 194, 255, 0.5);
+  box-shadow: 13px 11px 27px 14px rgba(198, 194, 255, 0.5);
+}
+
+#cancel-link {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: small;
+  padding-top: 20px;
+}
